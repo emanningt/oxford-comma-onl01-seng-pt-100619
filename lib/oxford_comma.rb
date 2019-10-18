@@ -8,7 +8,7 @@ def oxford_comma(array)
     return "#{array[0]} and #{array[1]}"
   elsif 2 < array.length
     #binding.pry
-    array[-1] = " and " + array[-1]
+    array[-1] = "and " + array[-1]
     
     
   end
